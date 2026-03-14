@@ -1,0 +1,20 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/pokedex.ts",
+  "scripts": {
+    "start": "ts-node src/pokedex.ts",
+    "build": "tsc",
+    "dbuild": "ts-node src/pokedex.ts",
+    "test": "echo \"Use bootdev run for validation\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
