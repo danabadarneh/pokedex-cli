@@ -2,19 +2,19 @@
   "name": "pokedex",
   "version": "1.0.0",
   "description": "",
-  "main": "src/pokedex.ts",
+  "main": "dist/main.js",
+  "type": "module",
   "scripts": {
-    "start": "ts-node src/pokedex.ts",
-    "build": "tsc",
-    "dbuild": "ts-node src/pokedex.ts",
-    "test": "echo \"Use bootdev run for validation\""
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "npx tsc && node dist/main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@types/node": "^25.5.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
   }
 }
